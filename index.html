@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Онлайн-курси сучасної кухні від шефа" />
+  <title>Авторська школа кухні</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Marcellus&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14m-5-5 5 5-5 5" />
+    </symbol>
+    <symbol id="diagonal" viewBox="0 0 24 24">
+      <path d="M7 17 17 7M9 7h8v8" />
+    </symbol>
+    <symbol id="check" viewBox="0 0 24 24">
+      <path d="m5 12 4 4L19 6" />
+    </symbol>
+    <symbol id="lock" viewBox="0 0 24 24">
+      <rect x="5" y="10" width="14" height="10" rx="2" />
+      <path d="M8 10V7a4 4 0 0 1 8 0v3" />
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <path d="M17.5 6.5h.01" />
+    </symbol>
+    <symbol id="youtube" viewBox="0 0 24 24">
+      <path d="M21 12s0-4-1-5-3.4-1-8-1-7 0-8 1-1 5-1 5 0 4 1 5 3.4 1 8 1 7 0 8-1 1-5 1-5Z" />
+      <path d="m10 9 5 3-5 3Z" />
+    </symbol>
+    <symbol id="telegram" viewBox="0 0 24 24">
+      <path d="m21 4-4 16-6-5-4 3 1-5 9-6-11 5-4-2Z" />
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <a class="logo" href="#home">
+      <span>Logo</span>
+      <small>culinary</small>
+    </a>
+    <nav class="nav" aria-label="Головна навігація">
+      <a href="#chef">Шеф</a>
+      <a href="#courses">Курси</a>
+      <a href="#apply">Навчання</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+    <a class="header-link" href="#apply">Записатися <svg class="icon">
+        <use href="#diagonal"></use>
+      </svg></a>
+    <button class="menu-button" type="button" aria-label="Відкрити меню"
+      aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/chef-portrait.png" alt="Шеф Марко Левицький у професійній кухні" />
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="kicker">Авторський курс</p>
+        <h1>Кухня —<br />це <em>мова.</em></h1>
+        <p class="hero-lead">Навчіться говорити нею впевнено.</p>
+        <a class="round-link" href="#courses" aria-label="Переглянути курси">
+          <svg class="icon">
+            <use href="#arrow"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-meta">
+        <p><span>Новий потік</span>12 липня 2026</p>
+        <p><span>Формат</span>Online · у своєму темпі</p>
+      </div>
+      <div class="scroll-note">Гортайте <span></span></div>
+    </section>
+
+    <section class="manifesto section">
+      <p class="section-index">01 — Філософія</p>
+      <div class="manifesto-copy reveal">
+        <p>Цитата про кухню.</p>
+        <h2>Розуміти продукт.<br />Керувати смаком.<br /><em>Готувати вільно.(орієнтовний напис)</em></h2>
+      </div>
+      <div class="manifesto-note reveal">
+        <span>Наш підхід</span>
+        <p>Пояснюємо логіку процесів, щоб ви могли імпровізувати, а не залежати від інструкції.</p>
+      </div>
+    </section>
+
+    <section class="chef section" id="chef">
+      <div class="chef-portrait reveal">
+        <img src="assets/chef-portrait.png" alt="Портрет шефа" />
+        <span class="portrait-caption">Курс · 2026</span>
+      </div>
+      <div class="chef-story reveal">
+        <p class="section-index">02 — Про шефа</p>
+        <h2>Андрій<br /><em>Фамілія</em></h2>
+        <blockquote>«Моя мета — не дати вам ще сто рецептів. Моя мета — навчити вас бачити страву до того, як вона
+          з’явиться на тарілці».</blockquote>
+        <p>Шеф-кухар і викладач із -річним досвідом. Працював у ресторанах(перелік). Створив
+          курс, де професійні знання стають зрозумілими й доступними для домашньої кухні.</p>
+        <div class="facts">
+          <div><strong>10</strong><span>років досвіду</span></div>
+          <div><strong>1.k</strong><span>випускників</span></div>
+          <div><strong>4.9</strong><span>рейтинг курсів</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses section" id="courses">
+      <div class="courses-heading reveal">
+        <p class="section-index">03 — Програми</p>
+        <h2>Курси, що змінюють<br /><em>спосіб мислення.</em></h2>
+      </div>
+
+      <div class="course-list">
+        <article class="course-row reveal">
+          <span class="course-index">01</span>
+          <div class="course-title">
+            <span>Базовий рівень · кількість тижнів</span>
+            <h3>Назва курсу</h3>
+          </div>
+          <p>Короткий опис курсу</p>
+          <strong>₴ Прайс</strong>
+          <button class="course-select" data-course="Кухня без страху" type="button"
+            aria-label="Обрати курс Кухня без страху"><svg class="icon">
+              <use href="#diagonal"></use>
+            </svg></button>
+        </article>
+        <article class="course-row reveal">
+          <span class="course-index">02</span>
+          <div class="course-title">
+            <span>Середній рівень · кількість тижнів</span>
+            <h3>Назва курсу</h3>
+          </div>
+          <p>Короткий опис курсу</p>
+          <strong>₴ Прайс</strong>
+          <button class="course-select" data-course="Тісто й випічка" type="button"
+            aria-label="Обрати курс Тісто й випічка"><svg class="icon">
+              <use href="#diagonal"></use>
+            </svg></button>
+        </article>
+        <article class="course-row reveal">
+          <span class="course-index">03</span>
+          <div class="course-title">
+            <span>Авторський рівень · кількість тижнів</span>
+            <h3>Назва курсу</h3>
+          </div>
+          <p>Короткий опис курсу</p>
+          <strong>₴ Прайс</strong>
+          <button class="course-select" data-course="Вечеря як подія" type="button"
+            aria-label="Обрати курс Вечеря як подія"><svg class="icon">
+              <use href="#diagonal"></use>
+            </svg></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="experience-number">10</div>
+      <div class="experience-copy reveal">
+        <p>років професійного досвіду<br />зібрано в одному навчанні</p>
+        <a href="#apply">Почати навчання <svg class="icon">
+            <use href="#arrow"></use>
+          </svg></a>
+      </div>
+    </section>
+
+    <section class="apply section" id="apply">
+      <div class="apply-intro reveal">
+        <p class="section-index">04 — Заявка</p>
+        <h2>Ваш стіл<br /><em>уже чекає.</em></h2>
+        <p>Оберіть програму та залиште контакти. Після заявки ви зможете перейти до безпечної оплати курсу.</p>
+        <ul>
+          <li><svg class="icon">
+              <use href="#check"></use>
+            </svg> Доступ одразу після оплати</li>
+          <li><svg class="icon">
+              <use href="#check"></use>
+            </svg> Підтримка у закритій спільноті</li>
+          <li><svg class="icon">
+              <use href="#check"></use>
+            </svg> Сертифікат після завершення(або просто доступ)</li>
+        </ul>
+      </div>
+
+      <form class="application-form reveal" id="course-form">
+        <div class="form-heading">
+          <span>Заявка на курс</span>
+          <small>Заповнення — 1 хвилина</small>
+        </div>
+        <label><span>Ім’я</span><input type="text" name="name" placeholder="Ваше ім’я" required /></label>
+        <label><span>Телефон</span><input type="tel" name="phone" placeholder="+380" required /></label>
+        <label><span>Email</span><input type="email" name="email" placeholder="mail@example.com" required /></label>
+        <label>
+          <span>Курс</span>
+          <select name="course" id="course-select" required>
+            <option value="">Оберіть програму</option>
+            <option>Назва курсу</option>
+            <option>Назва курсу</option>
+            <option>Назва курсу</option>
+          </select>
+        </label>
+        <label class="checkbox"><input type="checkbox" required /><span>Погоджуюся з політикою
+            конфіденційності</span></label>
+        <button class="pay-button" type="submit">Перейти до оплати <svg class="icon">
+            <use href="#arrow"></use>
+          </svg></button>
+        <p class="secure"><svg class="icon">
+            <use href="#lock"></use>
+          </svg> Захищена оплата банківською карткою</p>
+        <div class="form-success" role="status">Дякуємо! Заявку прийнято. Платіжний сервіс можна підключити наступним
+          кроком.</div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="footer-brand">
+      <a class="logo" href="#home"><span>Logo</span><small>culinary</small></a>
+      <p>Кулінарна освіта для тих,<br />хто хоче розуміти більше.</p>
+    </div>
+    <div class="footer-contact">
+      <span>Напишіть нам</span>
+      <a href="mailto:hello@levitsky.kitchen">hello@levitsky.kitchen</a>
+      <a href="tel:+380671234567">+38 067 123 45 67</a>
+    </div>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram"><svg class="icon">
+          <use href="#instagram"></use>
+        </svg></a>
+      <a href="#" aria-label="YouTube"><svg class="icon">
+          <use href="#youtube"></use>
+        </svg></a>
+      <a href="https://t.me/" aria-label="Telegram"><svg class="icon">
+          <use href="#telegram"></use>
+        </svg></a>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Culinary Course</span>
+      <a href="#">Політика конфіденційності</a>
+    </div>
+  </footer>
+
+  <a class="telegram-float" href="tg://resolve?phone=380979161944" target="_blank" rel="noreferrer"
+    aria-label="Написати в Telegram">
+    <svg class="icon">
+      <use href="#telegram"></use>
+    </svg>
+  </a>
+  <script src="script.js"></script>
+</body>
+
+</html>
