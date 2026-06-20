@@ -60,7 +60,7 @@ setTimeout(() => {
     "_blank"
   );
 }, 1000);
-});
+
 
 const observer = new IntersectionObserver(
   (entries) => {
